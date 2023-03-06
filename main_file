@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/_nuxt/entry.f6e7811c.css">
+  </head>
+  <body>
+    <div id="__nuxt"></div>
+    <script>
+      window.__NUXT__ = {
+        serverRendered: false,
+        config: {
+          public: {
+            apiURL: "https:\u002F\u002Fapi.dongvanfb.net",
+            toolURL: "https:\u002F\u002Ftools.dongvanfb.net",
+            docsURL: "https:\u002F\u002Fdocs.dongvanfb.net",
+            nuxtSocketIO: {
+              sockets: [{
+                name: "main",
+                url: "https:\u002F\u002Fsocket.dongvanfb.net"
+              }]
+            }
+          },
+          app: {
+            baseURL: "\u002F",
+            buildAssetsDir: "\u002F_nuxt\u002F",
+            cdnURL: ""
+          }
+        }
+      }
+    </script>
+    <script type="module" src="/_nuxt/entry-c06e30c8.mjs"></script>
+  </body>
+</html>
